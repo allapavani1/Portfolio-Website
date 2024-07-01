@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Alla Pavani.</a>
+        <nav class="nav">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm Alla Pavani</h1>
+            <h2>Student</h2>
+            <p>Welcome to my personal portfolio website. Here you can learn more about me, my skills, and view some of the projects I've worked on. Feel free to get in touch if you have any questions or if you’d like to collaborate on a project.</p>
+        </div>
+        <div class="home-image">
+            <img src="image1.jpg" alt="Portfolio Image">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        
+        <p>I'm a dedicated student with a passion for technology and design.
+            My journey into the world of development started at a young age, and since then, I have been continuously learning and growing in this field.
+            I'm excited to share my work and connect with like-minded individuals.</p>
+    </section>
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>C</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>Android development</li>
+        </ul>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-items">
+            <div class="portfolio-item">
+                <img src="myproject1.jpg" alt="Project Image">
+                <h3>Project 1</h3>
+                <p>Scholarship website</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="myproject2.jpg" alt="Project Image">
+                <h3>Project 2</h3>
+                <p> Netflix Clone</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="myproject3.jpg" alt="Project Image">
+                <h3>Project 3</h3>
+                <p>Restraunt website.</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
